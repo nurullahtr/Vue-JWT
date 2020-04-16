@@ -11,6 +11,14 @@
     </div>
 </template>
 
+<style lang="scss">
+// Main Stylesheet
+@import './src/assets/scss/main';
+
+// Bootstrap Vue Stylesheet
+@import '~bootstrap-vue/src/index';
+</style>
+
 <script>
 export default {
     name: 'app',
